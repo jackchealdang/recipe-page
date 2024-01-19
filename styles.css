@@ -115,3 +115,14 @@ body {
   font-weight: bold;
   color: var(--nutmeg)
 }
+
+@media only screen and (max-width: 430px){
+  body{padding: 0; margin:0;}
+  .card {
+    border-radius: 0;
+    width: 100%;
+
+    /* this line is legit MAGICAL */
+    box-sizing: border-box;
+  }
+}
