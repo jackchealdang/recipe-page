@@ -10,14 +10,15 @@
   --darkchar: hsl(24, 5%, 18%);
 }
 
-h1,h2{
-  font-family: 'Young Serif';
+h1,
+h2 {
+  font-family: "Young Serif";
   color: var(--nutmeg);
-  margin: 24px 0; 
+  margin: 24px 0;
 }
 
-h1{
-  color:var(--darkchar);
+h1 {
+  color: var(--darkchar);
   margin: 36px 0 14px;
 }
 
@@ -25,7 +26,7 @@ h2 {
   font-weight: 400;
 }
 
-hr{
+hr {
   border: none;
   color: var(--lightgrey);
   background-color: var(--lightgrey);
@@ -37,31 +38,31 @@ hr{
   background-color: var(--rosewhite);
   padding: 0 20px;
   border-radius: 12px;
-  color: var(--darkrasp)
-}
-
-.footnote > :is(h1,h2,h3,h4,h5,h6){
-  font-family: 'Outfit';
   color: var(--darkrasp);
 }
 
+.footnote > :is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Outfit";
+  color: var(--darkrasp);
+}
 
 li {
   margin-bottom: 7px;
   padding-left: 14px;
 }
 
-ol > li::marker{
+ol > li::marker {
   font-weight: bold;
   color: var(--nutmeg);
 }
 
-ol, ul {
+ol,
+ul {
   margin-top: 0;
 }
 
 body {
-  font-family: 'Outfit';
+  font-family: "Outfit";
   background-color: var(--eggshell);
   color: var(--darkrasp);
   line-height: 22px;
@@ -74,16 +75,16 @@ body {
   flex-direction: column;
   padding: 36px;
   border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
   background-color: var(--white);
 
   position: abosolute;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  margin:auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
   width: 650px;
 }
 
@@ -101,23 +102,27 @@ body {
   margin: 8px 0;
 }
 
-.nutrition-type, .nutrition-value{
+.nutrition-type,
+.nutrition-value {
   flex-basis: 50%;
   /* border: 1px solid black; */
 }
 
-.nutrition-type{
+.nutrition-type {
   padding-left: 32px;
   box-sizing: border-box;
 }
 
-.nutrition-value{
+.nutrition-value {
   font-weight: bold;
-  color: var(--nutmeg)
+  color: var(--nutmeg);
 }
 
-@media only screen and (max-width: 430px){
-  body{padding: 0; margin:0;}
+@media only screen and (max-width: 430px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
   .card {
     border-radius: 0;
     width: 100%;
